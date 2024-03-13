@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void main(String[] args)
+        static void Main(String[] args)
         {
             Math math = new Math();
             Console.WriteLine(math.Add(2, 4));

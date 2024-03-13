@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Uy ishi\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\X-Unit-Test\\Calculator\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Uy ishi\\Calculator\\Calculator\\Calculator.csproj",
+      "projectPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\X-Unit-Test\\Calculator\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Uy ishi\\Calculator\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\X-Unit-Test\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A C E R   N I T R O\\AppData\\Roaming\\NuGet\\NuGet.Config",

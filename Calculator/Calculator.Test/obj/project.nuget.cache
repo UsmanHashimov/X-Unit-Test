@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aVkQnju+TKtlEfffK1LSl31mhs77vAd8gq/kSOmYXXPa7tiaox1B/GjXRKVjd360M4+FBE6xtcZym+aMCax7gg==",
+  "dgSpecHash": "WWkcfTYYj41dJhG5imca/JJzYFw488f1h6b7k5ERBOt2LgE/klMrzCNYuRCSz0KXan+vPBFHM3EMvWBd7rGiVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Uy ishi\\Calculator\\Calculator.Test\\Calculator.Test.csproj",
+  "projectFilePath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\X-Unit-Test\\Calculator\\Calculator.Test\\Calculator.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

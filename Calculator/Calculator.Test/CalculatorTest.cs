@@ -2,7 +2,7 @@ namespace Calculator.Test
 {
     public class CalculatorTest
     {
-        private readonly Calculator _calculator = new Calculator();
+        private readonly Math _calculator = new Math();
     
         [Theory]
         [InlineData(5, 2, 7)]
