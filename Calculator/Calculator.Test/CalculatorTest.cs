@@ -2,43 +2,46 @@ namespace Calculator.Test
 {
     public class CalculatorTest
     {
-        [Fact]
-        public void Add_Test()
+        private readonly Calculator _calculator = new Calculator();
+    
+        [Theory]
+        [InlineData(5, 2, 7)]
+        [InlineData(-1, -1, -2)]
+        [InlineData(0, 0, 0)]
+        public void Add_ReturnsCorrectResult(double a, double b, double expected)
         {
-            double x = 2; double y = 3;
-            double res = x + y;
-            double expectedRes = 5;
-            Assert.Equal(expectedRes, res);
+            var result = _calculator.Add(a, b);
+            Assert.Equal(expected, result);
         }
-
-        [Fact]
-        public void Subtract_Test()
+    
+        [Theory]
+        [InlineData(5, 2, 3)]
+        [InlineData(-1, -1, 0)]
+        [InlineData(0, 0, 0)]
+        public void Subtract_ReturnsCorrectResult(double a, double b, double expected)
         {
-            double x = 2;
-            double y = 3;
-            double res = x - y;
-            double expectedRes = -1;
-            Assert.Equal(expectedRes, res);
+            var result = _calculator.Subtract(a, b);
+            Assert.Equal(expected, result);
         }
-
-        [Fact]
-        public void Multiply_Test()
+    
+        [Theory]
+        [InlineData(5, 2, 10)]
+        [InlineData(-1, -1, 1)]
+        [InlineData(0, 0, 0)]
+        public void Multiply_ReturnsCorrectResult(double a, double b, double expected)
         {
-            double x = 2;
-            double y = 3;
-            double res = x * y;
-            double expectedRes = 6;
-            Assert.Equal(expectedRes, res);
+            var result = _calculator.Multiply(a, b);
+            Assert.Equal(expected, result);
         }
-
-        [Fact]
-        public void Divide_Test() 
+    
+        [Theory]
+        [InlineData(6, 2, 3)]
+        [InlineData(-10, -2, 5)]
+        [InlineData(0, 1, 0)]
+        public void Divide_ReturnsCorrectResult(double a, double b, double expected)
         {
-            double x = 3;
-            double y = 1;
-            double res = x / y;
-            double expectedRes = 3;
-            Assert.Equal(expectedRes, res);
+            var result = _calculator.Divide(a, b);
+            Assert.Equal(expected, result);
         }
     }
 }
